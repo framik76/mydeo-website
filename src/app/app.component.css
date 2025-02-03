@@ -1,0 +1,12 @@
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .navbar span {
+    padding: 10px;
+  }
+  .navbar span:hover {
+    color: green;
+    cursor: pointer;    
+  }

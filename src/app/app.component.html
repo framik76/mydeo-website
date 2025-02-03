@@ -1,66 +1,16 @@
-<style>
-  .container {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #626262;
-    width: 100%;
-    margin: 0;
-    border: 1px solid;
-  } 
-
-  .navbar {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-  }
-  .navbar span {
-    padding: 10px;
-  }
-  .navbar span:hover {
-    color: green;
-    cursor: pointer;    
-  }
-  .content {
-    margin-top: 20px;
-    text-align: center;
-  }
-
-  .content .name {
-    font-size: x-large;
-    font-style: italic;
-  }
-
-  .content .slogan {
-    font-size: large;
-    font-style: italic;
-    margin-bottom: 10px;
-  }
-
-  .footer {
-    background-color: gray;
-    color: white;
-  }
-
-</style>
 <div class="container">
   <header>
     <nav class="navbar">
-      <span>Home</span>  
-      <span>MyDeo</span>
-      <span>Citronella</span>    
-      <span>Benessere</span>
-      <span>Negozio</span>
-      <span>Termini e condizioni</span>
-    </nav>
+      <span><a href="/">Home</a></span>  
+      <span><a href="/mydeo">MyDeo</a></span>
+      <span><a href="/citronella">Citronella</a></span>    
+      <span><a href="/benessere">Benessere</a></span>
+      <span><a href="/negozio">Negozio</a></span>
+      <span><a href="/termini">Termini e condizioni</a></span>
+    </nav>    
   </header>
-  
-  <main class="content">
-    <ng-content>
-      <span class="name">MY DEO</span><br />
-      <span class="slogan">PROFUMA E COLORA IL TUO MONDO</span>
-      <img src="images/home.jpg" />
-    </ng-content>
-  </main>
-  
+  <router-outlet />
+
   <footer class="footer">
     <p>CONTATTI</p>
   </footer>
