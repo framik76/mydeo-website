@@ -1,1 +1,31 @@
-<p>benessere works!</p>
+<div class="container">
+    <main class="content">
+        <ng-content>
+            <span class="name">DEOFEET</span><br />
+            <p>
+                <span class="text">
+                    La Talloniera profumata è la soluzione ideale perchè da freschezza ai vostri piedi e ne contrasta la stanchezza per mezzo della fragranza interna che viene rilasciata in modo progressivo, persistente e duraturo.
+                </span>
+            </p>
+            <br /> 
+            <div class="cardContainer">
+                <p-card [style]="{ width: '25rem', overflow: 'hidden', display: 'inline-block' }">
+                    <ng-template #header>
+                        
+                    </ng-template>
+                    <ng-template #title> DEOFEET </ng-template>
+                    <ng-template #subtitle> Talloniera profumata </ng-template>
+                    <ng-template #footer>
+                        <div class="flex gap-2 mt-1">
+                            <img alt="Card" src="images/benessere/deofeet1.png" width="250px" />        
+                        </div>
+                    </ng-template>
+                </p-card>
+            </div>
+            <br />
+
+        </ng-content>
+    </main>
+</div>
+
+

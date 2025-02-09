@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { CardModule } from 'primeng/card';
 
 @Component({
   selector: 'app-citronella',
-  imports: [],
+  imports: [CardModule],
   templateUrl: './citronella.component.html',
   styleUrl: './citronella.component.css'
 })

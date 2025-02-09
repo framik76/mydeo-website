@@ -1,1 +1,83 @@
-<p>citronella works!</p>
+<div class="container">
+    <main class="content">
+        <ng-content>
+            <span class="name">CITRONELLA & FLOWERS</span><br />
+            <p>
+                <span class="text">
+                    Braccialetti e Diffusori di Design, Profumati Con Una Speciale Citronella E Mix Di Fiori, Fragranza Sgradita Che Allontana Le Zanzare – TESTATI DALL’ UNIVERSITÀ DI PADOVA
+                </span>
+            </p>
+            <br /> 
+            <div class="cardContainer">
+                <p-card [style]="{ width: '25rem', overflow: 'hidden', display: 'inline-block' }">
+                    <ng-template #header>
+                        
+                    </ng-template>
+                    <ng-template #title class="title"> REVERSO CITRONELLA </ng-template>
+                    <ng-template #subtitle class="subtitle"> Arreda e Protegge La Tua Casa Dalle Zanzare </ng-template>
+                    <ng-template #footer>
+                        <div class="flex gap-2 mt-1">
+                            <img class="imgCard" alt="Card" src="images/citronella/REVERSO-CITRONELLA.jpg" width="250px" />        
+                        </div>
+                    </ng-template>
+                </p-card>
+                
+                <p-card [style]="{ width: '25rem', overflow: 'hidden', display: 'inline-block' }">
+                    <ng-template #header>
+                        
+                    </ng-template>
+                    <ng-template #title class="title"> My STICKS CITRONELLA </ng-template>
+                    <ng-template #subtitle class="subtitle"> I Bastoncini Colorati Che Arredano e Proteggono </ng-template>
+                    <ng-template #footer>
+                        <div class="flex gap-2 mt-1">
+                            <img alt="Card" src="images/citronella/MY-STICKS-CITRONELLA.jpg" width="250px" />        
+                        </div>
+                    </ng-template>
+                </p-card>
+
+                <p-card [style]="{ width: '25rem', overflow: 'hidden', display: 'inline-block' }">
+                    <ng-template #header>
+                        
+                    </ng-template>
+                    <ng-template #title class="title"> My FLOWERS CITRONELLA </ng-template>
+                    <ng-template #subtitle class="subtitle"> I Fiori Colorati Che Arredano e Proteggono </ng-template>
+                    <ng-template #footer>
+                        <div class="flex gap-2 mt-1">
+                            <img alt="Card" src="images/citronella/MY-FLOWER-CITRONELLA.jpg" width="250px" />        
+                        </div>
+                    </ng-template>
+                </p-card>
+
+                <p-card [style]="{ width: '25rem', overflow: 'hidden', display: 'inline-block' }">
+                    <ng-template #header>
+                        
+                    </ng-template>
+                    <ng-template #title class="title"> BRACCIALI CITRONELLA </ng-template>
+                    <ng-template #subtitle class="subtitle"> Proteggono Te E I Tuoi Cari </ng-template>
+                    <ng-template #footer>
+                        <div class="flex gap-2 mt-1">
+                            <img alt="Card" src="images/citronella/bracciali.jpg" width="250px" />        
+                        </div>
+                    </ng-template>
+                </p-card>
+
+                <p-card [style]="{ width: '25rem', overflow: 'hidden', display: 'inline-block' }">
+                    <ng-template #header>
+                        
+                    </ng-template>
+                    <ng-template #title class="title"> DIFFUSORE CITRONELLA </ng-template>
+                    <ng-template #subtitle class="subtitle"> Per Le Aree Con Molte Zanzare </ng-template>
+                    <ng-template #footer>
+                        <div class="flex gap-2 mt-1">
+                            <img alt="Card" src="images/citronella/DIFFUSORE-CITRONELLA.jpg" width="250px" />        
+                        </div>
+                    </ng-template>
+                </p-card>
+            </div>
+            <br />
+
+        </ng-content>
+    </main>
+</div>
+
+

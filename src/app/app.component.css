@@ -5,6 +5,16 @@
   }
   .navbar span {
     padding: 10px;
+    color: gray;
+  }
+  .navbar a {
+    text-decoration: none; 
+  }
+  .navbar a:visited {
+    color: gray;
+  }
+  .navbar a:hover {
+    color: green;
   }
   .navbar span:hover {
     color: green;
